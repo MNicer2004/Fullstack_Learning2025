@@ -92,7 +92,7 @@ print(anime[1])
 # S E T S
 '''
 Unordered and Unindex - it means it doesn't have index like 0 1 2 3 and so on..
-Partially writable - it means u can add but you can't edit or delete
+Partially writable - it means u can add but you can't edit 
 Curly braces {} to make it SETS
 
 evenNumbers = {2,4,6,8,10}
@@ -106,3 +106,48 @@ print (evenNumbers)
 '''
 #Set ADD ITEMS by update #set.update(list)
 #if you want to add a lot in 1 line
+'''
+evenNumbers = {2,4,6,8,10}
+evenNumbers.update([12,14,16,18,20]) 
+print (evenNumbers) #output {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}
+'''
+#Set DELETING ITEMS by REMOVE()
+#set.remove(value) || number.remove(1)
+'''
+evenNumbers = {2,4,6,8,10}
+evenNumbers.remove(2) #remove the 2 
+print (evenNumbers) #output {4, 6, 8, 10}
+'''
+#Set DELETING ITEMS by DISCARD()
+#set.discard || numbers.discard(1)
+#same as remove but the DIFFERENCE is if the value DOESN'T EXIST in the set it will NOT be counted as an ERROR 
+''''
+evenNumbers = {2,4,6,8,10}
+evenNumbers.discard(12)  #even it doesn't have 12 in the set it still run 
+print (evenNumbers)
+'''
+#Clearing a SET
+#set.clear || number.clear()
+#it wont delete, it will just clear the value of the set
+'''
+number ={1,2,3,4,5}
+number.clear()
+print(number) #output set()
+'''
+#UNION SET
+#Relationship of 2 set like venn diagram
+#No duplicate in the set for ex. num1 has a value of 2 and num2 has a value of 2 too, so what happen is it will just print 2 not 22.
+'''
+evenNum = {2,4,6,8,10}
+oddNum = {1,3,5,7,9}
+number = evenNum.union(oddNum) 
+print(number) # outut {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+'''
+#DIFFERENCE Set
+#basically it will just remove the values that only exist on the left set
+'''
+setOne ={1,2,3,4,5}
+setTwo ={1,5} #removed 1 and 5
+setThree = setOne.difference(setTwo)
+print(setThree) #output {2, 3, 4}
+'''

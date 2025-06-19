@@ -70,8 +70,8 @@ print(combinedlist) or print (catname + dogname)
 # SORT list by alphabet or value
 # syntax list.sort() like a-z
 # syntax list.sort(reverse=True) like z-a
-'''
+
 names = ["Nyah", "Nicole", "Max", "Deku", "Luffy"]
 names.sort() #reverse=True for z-a
 print(names)
-'''
+

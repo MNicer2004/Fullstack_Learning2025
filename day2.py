@@ -70,8 +70,39 @@ print(combinedlist) or print (catname + dogname)
 # SORT list by alphabet or value
 # syntax list.sort() like a-z
 # syntax list.sort(reverse=True) like z-a
-
-names = ["Nyah", "Nicole", "Max", "Deku", "Luffy"]
+'''
+names = ["Nyah", "Nicole", "Nami", "Chopper", "Luffy"]
 names.sort() #reverse=True for z-a
 print(names)
+'''
+#NESTED Lists
+# index      0         1         2                          3
+'''
+anime = ["OnePiece","Naruto","Re:Zero",["SoloLevelin","DanDaDan",["Frieren","Demon Slayer","AttackOnTitan"]]]
+print(anime[3][2][2]) #3 is inner, 2 is inner of 3, and  2 is the index of inner 2
+'''
+#TUPLES
+#Tuples is just like a list but tuples is just read only it means you can't edit what's inside the lists. much better for fixed list to use this i guess
+#same syntax for lists but it's () not []
+'''
+anime = ("OnePiece","Naruto","Re:Zero")
+print(anime)
+print(anime[1])
+'''
+# S E T S
+'''
+Unordered and Unindex - it means it doesn't have index like 0 1 2 3 and so on..
+Partially writable - it means u can add but you can't edit or delete
+Curly braces {} to make it SETS
 
+evenNumbers = {2,4,6,8,10}
+print (evenNumbers)
+'''
+#Set ADD ITEMS by add() #set.add()
+'''
+evenNumbers = {2,4,6,8,10}
+evenNumbers.add(12) 
+print (evenNumbers)
+'''
+#Set ADD ITEMS by update #set.update(list)
+#if you want to add a lot in 1 line

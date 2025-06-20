@@ -13,7 +13,7 @@
 # for x in range(5):
 #    print(x)
 
-'''
+
 fullName = "Mark Christian E. Nicer"
 age = 21
 print(f"Hello, my name is {fullName} and I am {age} years old.")
@@ -35,19 +35,19 @@ if qualified == True:
 else:
     print("You are not qualified")
 
-'''
+
 # converting text into int
-'''
+
 
 money = "1000"
 add = 2000
 text = "hi"
 
 print(text + " " + int(money + add))
-'''
+
 
 # basic calculator
-'''
+
 firstNumber = int(input("Enter your first number: "))
 secondNumber = int(input("Enter your second number: "))
 
@@ -70,4 +70,4 @@ elif choice == 'd':
         result = firstNumber / secondNumber
         print(
             f"The result of dividing {firstNumber} / {secondNumber} = {result}")
-'''
+

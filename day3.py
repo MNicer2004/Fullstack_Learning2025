@@ -201,9 +201,25 @@ else:                                                          #else after the w
 '''
 
 #WHILE LOOP IN COLLECTION
-studentID = [2025123,2025124,2025125,2025126]
-index = 0
+#               0        1       2       3
+# studentID = [2025123,2025124,2025125,2025126]
+# index = 0
 
-while index < (len(studentID)):
-    print(studentID[index])
-    index = index + 1
+# while index < (len(studentID)):
+#     print(studentID[index])
+#     index = index + 1
+    
+#break - does brake the loop 
+
+#CONDITION IN WHILE LOOP
+
+# student = input("What does IT stands for? ")
+
+# while True: # it will loop until the if is true
+#     if student == "Information Technology" or student == "information technology":
+#         print("That's Correct!")
+#         break  #the loop will stop when the condition is true
+#     else:
+#         print("That's Incorrect! Try again.")
+#         student = input("What does IT stands for? ")
+    

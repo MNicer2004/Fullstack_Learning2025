@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <fieldset>
+        <form action="https://youtu.be/CGdxQLIVt9M?si=AgluqTvsVixKacBK">
+            <!-- Note: for="This" and id="This" should be the same-->
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="Mark Christian Nicer" required>
+            <!--TEXTINPUT-->
+            <br>
+
+            <label for="password">Password:</label>
+            <input type="password" name="your-password" id="password" required>
+            <!--PASSWORD INPUT (TEXT HIDDEN)-->
+            <br>
+
+            <label for="dropdown">Course:</label>
+            <select name="" id="dropdown">
+                <option value="val1">BSIT</option>
+                <option value="val2">BSCS</option>
+                <option value="val3">BSN</option>
+                <option value="val4">BSA</option>
+            </select>
+            <br>
+
+            <label for="Gender">Gender: </label>
+            <input type="radio" name="gender" id="Gender">Male
+            <input type="radio" name="gender" id="Gender">Male
+            <br>
+
+            <label for="">Email: </label>
+            <input type="email" name="" id="">
+            <br>
+
+            <label for="">Uplaod your CV: </label>
+            <input type="file" name="" id="">
+            <br>
+
+            <label for="submithere">SUBMIT</label>
+            <input type="submit" id="submithere">
+            <!--SUBMIT BUTTON-->
+            <br>
+
+            <!--INPUT ATTRIBUTES-->
+            <label for="attribute">InputAttributes</label>
+            <input type="text" id="attribute" value="ReadOnlyTEXT" readonly> <br>
+            <!-- it means you cant change, just read only (value ="the text" readonly)-->
+            <input type="text" id="attribute" value="Disabled" disabled> <br> <!-- Disabled -->
+            <input type="text" id="attribute" value="15"><br> <!-- size of the textbox  -->
+            <input type="text" id="attribute" maxlength="10"><br>
+            <!-- Max Length / the amount of character you can only input  -->
+            <input type="text" id="attribute" placeholder="PlaceHolder"><br> <!-- shows temporary text -->
+
+            <!--INPUT LISTS-->
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="Edge">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+        </form>
+    </fieldset>
+</body>
+
+</html>
+<!--
+FORM ATTRIBUTES
+
+ACTION - defines the action to be performed when the form is submitted.
+ - <form action="/action_page.html"> </form>
+
+INPUT TYPES
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+
+value =""
+readonly
+disabled
+size =""
+placeholder = ""
+required
+-->

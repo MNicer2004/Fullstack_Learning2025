@@ -57,3 +57,21 @@ add id attribute
      <h1 id ="bm3">BookMark3</h1> it goes here when clicked the P3
      <p>bookmark-3</p>
 
+
+attribute
+title = "" attribute = showed a text when hovered <a href="yourlink.com" title="HELLO">title</a>
+target = "_blank" = when clicked it will go to another tab <a href="yourlink.com" target="_blank">new tab</a>
+
+
+IMAGE AS LINK
+<a href="https://www.youtube.com/" target ="_blank"> 
+    <img src="/HTML/images/n1cer.png" alt="youtube"> 
+</a>
+
+
+TABLE
+thead = table header
+th = headear cell
+tr = table row
+tbody = table body
+td = table data

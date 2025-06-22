@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video src="yourvido" controls muted autoplay></video>
+    <audio src="" controls autoplay loop></audio>
+
+    <video controls poster="/HTML/images/n1cer.png"> <!--This is much better to use-->
+      <source src="video.mp4" alt="mp4file" type="video/mp4">
+      <source src="video.ogg" alt="oggfile" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0w80F8FffQ4?si=4yICEDVNAg0W1dhg" title="YouTube video player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
+
+<!--
+Attributes
+   controls - add a control play/volume/fullscreen
+   muted - mute the video
+   autoplay - autoplay the video 
+   loop - loop the video/audio
+   poster ="src" - shows an image before playing the video (thumbnail)
+   allowfullscreen
+Iframe
+   An inline frame is used to embed another document (videos/files?)
+-->

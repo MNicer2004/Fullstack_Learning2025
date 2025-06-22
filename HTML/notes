@@ -1,0 +1,59 @@
+NOTE: I already have background knowledge of HTML and CSS so not all is list here but I'll just write here just incase i forgot something xD
+      I'm also following online course here :p
+
+Favicon
+ - small image displayed next tonthe page title in the browser tab
+ - on your tab, theres a logo before the title
+ - <link rel = "icon" type = "image/x-icon" href="/images/favicon.ico">
+
+<h1> to <h6> - Header size 
+
+<p>Paragraph</p>
+
+<pre>This is a 
+    pre tag, it will display
+    the same format
+</pre>
+
+<br> breakline
+<hr> linebreak 
+
+<b>𝐁𝐎𝐋𝐃 𝐓𝐄𝐗𝐓/b> 
+<i>𝘛𝘩𝘪𝘴 𝘪𝘴 𝘢 𝘐𝘵𝘢𝘭𝘪𝘤 𝘛𝘦𝘹𝘵</i>
+<mark>This is a Mark Text</mark> - HIGHLIGHT THE TEXT
+<del>line in the middle of the txt</del>
+<u>Underline Text</u>
+<sup>Super Script</sup> 
+
+<q>quotation mark</q> " " - "Quotation mark"
+<address>This is adress</address>
+
+<abbr title = "This is what will show when hover">Hover Me</abbr>
+
+<img src="where it located" alt="Image">  - image
+
+INTERNAL LINK 
+a - anchor tag is used to define hyperlink <a href="like .html">Text</a>
+
+EXTERNAL LINK
+<a href="yourlink.com">External Link</a>
+
+sending to gmail
+<a href = "mailto:nicermarkchristian1@gmailcom">CONTACT ME</a> - used mailto:gmail
+
+BOOKMARK - page jump
+add id attribute
+<p>BookMark</p> 
+     <a href="#bm1">P1</a>
+     <a href="#bm2">P2</a>
+     <a href="#bm3">P3</a>
+     
+     <h1 id ="bm1">BookMark1</h1> 
+     <p>bookmark-1</p>
+
+     <h1 id ="bm2">BookMark2</h1>
+     <p>bookmark-2</p>
+
+     <h1 id ="bm3">BookMark3</h1> it goes here when clicked the P3
+     <p>bookmark-3</p>
+

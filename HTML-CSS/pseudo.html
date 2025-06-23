@@ -1,58 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudo Classes & Transitions</title>
     <style>
-        button{
+        button {
+            box-shadow: 2px 4px 7px 2px rgba(0, 0, 0, .7);
+
             width: 600px;
-            transition:ease-in 1s;
+            transition: ease-in 1s;
             margin: 20px;
             padding: 20px 40px 20px 40px;
-            border: 2px solid black;
+            border: 2px solid rgba(0, 0, 0, 0.534);
             border-radius: 50px;
-            background-color: aqua;
+            background-color: rgba(0, 255, 255, 0.74);
         }
-        button:hover{
+
+        button:hover {
             width: 1000px;
             background-color: red;
             color: white;
             border: 2px solid pink;
         }
-        button:active{
+
+        button:active {
             background-color: blueviolet;
         }
 
-        .disabled{
+        .disabled {
             opacity: 0.1;
         }
-        .enabled{
+
+        .enabled {
             background-color: green;
             text-decoration: underline;
             text-transform: capitalize;
             font-style: italic;
         }
 
-        .enabled:hover{
+        .enabled:hover {
             font-weight: bold;
         }
 
-        
-        .inputtxt:focus{
+
+        .inputtxt:focus {
             border-color: 2px solid red;
             outline: none;
             background-color: wheat;
         }
-        .check:checked{
+
+        .check:checked {
             scale: 10px;
             color: red;
+            box-shadow: 2px 2px pink;
         }
 
-       
-
+        .boxshadow{
+            box-shadow: 2px 2px 10px 0px blue, -2px -2px 10px 0px red;
+            height: 100px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .boxshadow h1{
+            text-align: center;
+            
+        }
     </style>
 </head>
+
 <body>
     <button>Click Me!</button>
     <button class="disabled">This is a disabled button!</button>
@@ -61,7 +82,12 @@
     <input type="text" class="inputtxt">
 
     <input type="radio" class="check">
+
+    <div class="boxshadow">
+        <h1>This is a boxshadow effect</h1>
+    </div>
 </body>
+
 </html>
 <!--
 :hover - when you hover the button
@@ -83,6 +109,14 @@ ease-in            slow - fast
 ease-out           fast - slow
 ease-in-out        slow
 cubic-bezeir       define own values
+
+
+BOX SHADOW > +y is right - is left
+             +x  is down - is up
+           
+              x    y  blur spread  color
+box-shadow: 10px 10px 20px 10px red;
+u can add  inset after the color if you want the shadow will go inner
 
 
 

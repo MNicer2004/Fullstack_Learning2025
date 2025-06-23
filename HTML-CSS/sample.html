@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <style>
+        *{
+            text-decoration: none;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            background-color: orange;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .navdiv{
+            display: flex;
+            align-items: center;
+            justify-content: space-between
+        }
+        .logo a{
+            font-size: 50px; font-weight: 400;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        ul li{
+            font-size: 17px;
+            text-decoration: none;
+            display: inline-block;
+            
+        }
+        ul li a{
+            color: white;
+            padding-right: 20px;
+        }
+        ul li a:hover{
+            color: orangered; 
+        }
+        button{
+            font-size: 17px;
+            transition: 0.5s ease;
+            border: transparent;
+            background-color: orangered;
+            border-radius: 30px;
+            width: 100px; height: 30px;
+        }
+        button:hover{
+            background-color: rgb(255, 0, 0);
+            border: 2px solid white;
+        }
+        button a{
+            color: white;
+        }
+        button a:hover{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+             <div class="logo"><a href="#">Nicer.</a></div>
+             <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+                <button><a href="#">Sign In</a></button>
+             </ul>
+        </div>
+    </nav>
+</body>
+</html>

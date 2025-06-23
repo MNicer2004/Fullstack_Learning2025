@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .container{
+            height: 200px;
+            width: 100%;
+            background-color: yellow;
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            transition: 1s ease;
+            width: 100px;
+            margin: 0;
+            padding:10px
+        }
+        button:hover{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button>Click ME!</button>
+    </div>
+    
+</body>
+</html>
+<!--
+position:
+         static;         #default >Position according to the flow of the page
+         relative;       #
+         fixed;          #Position on the same place even if scrolled
+         absolute;       #
+         sticky;         #Sticks in position when not in viewport
+
+
+p{
+ position:static;          #default
+}
+
+nav{
+ position:sticky;          #default
+}
+-->

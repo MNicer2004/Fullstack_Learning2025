@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes & Transitions</title>
+    <style>
+        button{
+            width: 600px;
+            transition:ease-in 1s;
+            margin: 20px;
+            padding: 20px 40px 20px 40px;
+            border: 2px solid black;
+            border-radius: 50px;
+            background-color: aqua;
+        }
+        button:hover{
+            width: 1000px;
+            background-color: red;
+            color: white;
+            border: 2px solid pink;
+        }
+        button:active{
+            background-color: blueviolet;
+        }
+
+        .disabled{
+            opacity: 0.1;
+        }
+        .enabled{
+            background-color: green;
+            text-decoration: underline;
+            text-transform: capitalize;
+            font-style: italic;
+        }
+
+        .enabled:hover{
+            font-weight: bold;
+        }
+
+        
+        .inputtxt:focus{
+            border-color: 2px solid red;
+            outline: none;
+            background-color: wheat;
+        }
+        .check:checked{
+            scale: 10px;
+            color: red;
+        }
+
+       
+
+    </style>
+</head>
+<body>
+    <button>Click Me!</button>
+    <button class="disabled">This is a disabled button!</button>
+    <button class="enabled">This is a disabled button!</button>
+
+    <input type="text" class="inputtxt">
+
+    <input type="radio" class="check">
+</body>
+</html>
+<!--
+:hover - when you hover the button
+:active - when clicked or active
+:disabled - disable the button
+:enabled - enable the button
+:focus -
+:checked
+
+
+transition: duration delay > transition: 1s 2s; will delay for 2s before transition
+transition: 1s;
+
+Timing functions > transition: ease 2s;
+selector           desc
+ease               slow-fast-slow
+linear             linear speed
+ease-in            slow - fast
+ease-out           fast - slow
+ease-in-out        slow
+cubic-bezeir       define own values
+
+
+
+
+-->

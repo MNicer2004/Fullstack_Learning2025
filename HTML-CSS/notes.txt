@@ -77,3 +77,27 @@ tbody = table body
 td = table data
 
 
+#CSS
+just some note that i need
+
+!B A C K G R O U N D
+background-repeat:
+   : repeat;      repeat the images 
+   : round;       repeat the image based on the screen
+   : space;       just like repeat but has spaces
+   : no-repeat;   norepeat, just one
+
+background-attachment: scroll
+   : scroll;      default
+   : fixed;       the background image stays
+
+background-position: x  position y  position
+   : center top;  the image is centered even you zoom out
+   : 50% 0% =     center and top
+
+background-size:
+   : auto;               
+   : contain;     will try to fit the image on the viewport
+   : cover;       
+
+# box model

@@ -5,41 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="/HTML-CSS/CSS/nav.css">
     <title>NAV</title>
-    <style>
-        nav{
-            background-color: aqua;
-            display: fixed;
-            padding :10px;
-        }
-        .logo{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        ul{
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly
-        }
-    </style>
 </head>
+
 <body>
     <nav>
-        <nav class="logo">LOGO</nav>
-        <ul>
-            <li><a href="#"><i class="fa fa-home">
-                        Home
-                    </i></a></li>
-            <li><a href="#">
-                    Services
-                </a></li>
-            <li><a href="#">
-                    Contact
-                </a></li>
-        </ul>
+        <div class="brand-container">
+            <img src="/HTML-CSS/images/n1cer.png" alt="logo">
+            <h2 class="brand-title">NavBar</h2>
+        </div>
+        <div class="link-container">
+            <a href="#" class="link">Home</a>
+            <a href="#" class="link">About</a>
+            <a href="#" class="link">Contacts</a>
+            <a href="#" class="log-in">Log In</a>
+        </div>
     </nav>
+    <div class="main-container">
+        <h1>Hello World!</h1>
+    </div>
 </body>
 
 </html>

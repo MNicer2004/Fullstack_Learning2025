@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: darkblue;
+    padding: 10px 25px;
+}
+
+nav img {
+    width: 48px;
+}
+
+.brand-container {
+    display: inline-block;
+}
+
+.brand-title {
+    display: inline-block;
+    margin: 0;
+    color: white;
+    position: relative;
+    top: -15px;
+    left: 15px;
+}
+
+.link-container {
+    float: right;
+    position: relative;
+    top: 15px;
+    transition: 0.5s ease;
+}
+
+.link {
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    position: relative;
+    right: 20px;
+}
+
+.link:hover {
+    color: yellow;
+}
+
+.log-in {
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}

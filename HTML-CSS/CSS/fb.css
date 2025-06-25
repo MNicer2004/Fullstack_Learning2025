@@ -1,5 +1,84 @@
 body{
     margin: 0;
     text-align: center;
-    
+    margin-top: 30px;
+}
+.fb-quote{
+    font-size: 1.16rem;
+    font-family: Arial;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 10px;
+}
+.login-container{
+    margin: 30px auto;
+    width: 420px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+input{
+    display: block;
+    width: 390px;
+    outline: none;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+.btn{
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+    padding: 15px 0;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #1877f2;
+    color: white;
+}
+
+.forgot-password{
+    margin: 15px 0;
+    display: inline-block;
+    font-family: Arial;
+    text-decoration: none;
+    font-size: 14px;
+}
+.forgot-password:hover{
+    text-decoration: underline;
+}
+hr{
+    opacity: 0.2;
+    margin: 15px 0;
+}
+
+.btn-create{
+    margin: 15px auto;
+    display: block;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+}
+.create-page{
+    font-weight: bold;
+    font-family: Arial;
+    text-decoration: none;
+    color: black;
+}
+.create-page:hover{
+    text-decoration: underline;
+}
+.below-text{
+    font-family: Arial;
 }

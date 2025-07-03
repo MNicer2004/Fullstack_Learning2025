@@ -58,3 +58,6 @@ Using var
   > using var should only use if you want to support older version of browsers
     var x = 5;
 
+CONVERTING
+
+parseInt
